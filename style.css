@@ -1,17 +1,17 @@
-
+/* Paleta de colores */
 :root {
-    --color-fondo: #146594; 
-    --color-texto: #000000; 
-    --color-titulo: #171e29; 
-    --color-boton: #11719e; 
-    --color-boton-hover: #45a049; 
-    --color-borde: #070606; 
-    --color-borde-activo: #2a4d7f; 
-    --color-fondo-campo: #1482cc; 
-    --color-fondo-campo-hover: #030303; 
+    --color-fondo: #f30404; /* Gris muy claro para el fondo */
+    --color-texto: #333333; /* Gris oscuro para el texto */
+    --color-titulo: #2a4d7f; /* Azul oscuro para los títulos */
+    --color-boton: #4CAF50; /* Verde para los botones */
+    --color-boton-hover: #45a049; /* Verde más oscuro para el hover del botón */
+    --color-borde: #ccc; /* Gris para los bordes */
+    --color-borde-activo: #2a4d7f; /* Azul para el borde de los campos activos */
+    --color-fondo-campo: #ffffff; /* Blanco para los campos de entrada */
+    --color-fondo-campo-hover: #f1f1f1; /* Gris muy suave para el hover de los campos */
 }
 
-
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     background-color: var(--color-fondo);
@@ -20,7 +20,7 @@ body {
     padding: 0;
 }
 
-
+/* Estilo para los títulos */
 h1#title {
     color: var(--color-titulo);
     text-align: center;
@@ -33,7 +33,7 @@ p#description {
     padding: 10px;
 }
 
-
+/* Estilo del formulario */
 form#survey-form {
     width: 80%;
     max-width: 600px;
@@ -50,14 +50,14 @@ label {
     font-weight: bold;
 }
 
-
+/* Campos de entrada */
 input[type="text"], 
 input[type="email"], 
 input[type="number"], 
 select, 
 textarea {
     width: 100%;
-    padding: 7px;
+    padding: 10px;
     margin-top: 5px;
     border: 1px solid var(--color-borde);
     border-radius: 5px;
@@ -73,7 +73,7 @@ textarea:focus {
     outline: none;
 }
 
-
+/* Campos de selección y radio buttons */
 fieldset {
     margin-top: 15px;
     border: none;
@@ -84,6 +84,7 @@ input[type="checkbox"] {
     margin-right: 5px;
 }
 
+/* Botón de envío */
 button#submit {
     width: 100%;
     padding: 15px;
@@ -91,7 +92,7 @@ button#submit {
     background-color: var(--color-boton);
     border: none;
     border-radius: 5px;
-    color: rgb(230, 230, 230);
+    color: white;
     font-size: 1.1em;
     cursor: pointer;
 }
@@ -100,9 +101,8 @@ button#submit:hover {
     background-color: var(--color-boton-hover);
 }
 
-
+/* Estilo de los comentarios */
 textarea {
     min-height: 100px;
     resize: vertical;
 }
-
