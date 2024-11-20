@@ -1,0 +1,108 @@
+
+:root {
+    --color-fondo: #f5f5f5; 
+    --color-texto: #333333; 
+    --color-titulo: #2a4d7f; 
+    --color-boton: #4CAF50; 
+    --color-boton-hover: #45a049; 
+    --color-borde: #ccc; 
+    --color-borde-activo: #2a4d7f; 
+    --color-fondo-campo: #ffffff; 
+    --color-fondo-campo-hover: #f1f1f1; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 0;
+    padding: 0;
+}
+
+
+h1#title {
+    color: var(--color-titulo);
+    text-align: center;
+    padding: 20px;
+}
+
+p#description {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+
+form#survey-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--color-fondo-campo);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+input[type="text"], 
+input[type="email"], 
+input[type="number"], 
+select, 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid var(--color-borde);
+    border-radius: 5px;
+    background-color: var(--color-fondo-campo);
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="number"]:focus, 
+select:focus, 
+textarea:focus {
+    border-color: var(--color-borde-activo);
+    outline: none;
+}
+
+
+fieldset {
+    margin-top: 15px;
+    border: none;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button#submit {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: var(--color-boton);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button#submit:hover {
+    background-color: var(--color-boton-hover);
+}
+
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
