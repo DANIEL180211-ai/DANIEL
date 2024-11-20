@@ -1,14 +1,14 @@
 
 :root {
-    --color-fondo: #f5f5f5; 
-    --color-texto: #333333; 
-    --color-titulo: #2a4d7f; 
-    --color-boton: #4CAF50; 
+    --color-fondo: #146594; 
+    --color-texto: #000000; 
+    --color-titulo: #171e29; 
+    --color-boton: #11719e; 
     --color-boton-hover: #45a049; 
-    --color-borde: #ccc; 
+    --color-borde: #070606; 
     --color-borde-activo: #2a4d7f; 
-    --color-fondo-campo: #ffffff; 
-    --color-fondo-campo-hover: #f1f1f1; 
+    --color-fondo-campo: #1482cc; 
+    --color-fondo-campo-hover: #030303; 
 }
 
 
@@ -57,7 +57,7 @@ input[type="number"],
 select, 
 textarea {
     width: 100%;
-    padding: 10px;
+    padding: 7px;
     margin-top: 5px;
     border: 1px solid var(--color-borde);
     border-radius: 5px;
@@ -91,7 +91,7 @@ button#submit {
     background-color: var(--color-boton);
     border: none;
     border-radius: 5px;
-    color: white;
+    color: rgb(230, 230, 230);
     font-size: 1.1em;
     cursor: pointer;
 }
