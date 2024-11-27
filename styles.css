@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #2f1b3f; 
+    background-color: #8919e6; 
     color: #333; 
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 
 #title {
     text-align: center;
-    color: #f1f7f1; 
+    color: #3db33d; 
     margin-top: 20px;
 }
 
@@ -21,7 +21,7 @@ body {
 
 
 #survey-form {
-    background-color: #ffffff; 
+    background-color: #8d2525; 
     border-radius: 8px;
     width: 60%;
     margin: 0 auto;
